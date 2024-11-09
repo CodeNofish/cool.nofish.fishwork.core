@@ -1,0 +1,25 @@
+{
+  "name": "cool.nofish.fishwork.core",
+  "version": "1.0.0",
+  "displayName": "Fishwork Core",
+  "description": "Fishwork Core Library",
+  "unity": "6000.0",
+  "documentationUrl": "https://github.com/CodeNofish/cool.nofish.fishwork.core/blob/main/Documentation~",
+  "changelogUrl": "https://github.com/CodeNofish/cool.nofish.fishwork.core/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/CodeNofish/cool.nofish.fishwork.core/blob/main/LICENSE",
+  "keywords": [
+    "fishwork"
+  ],
+  "samples": [
+    {
+      "displayName": "Basic Usage",
+      "description": "Fishwork Core 基础用法",
+      "path": "Samples~/BasicUsage"
+    }
+  ],
+  "author": {
+    "name": "CodeNofish",
+    "email": "1980114953@qq.com",
+    "url": "https://github.com/CodeNofish"
+  }
+}
