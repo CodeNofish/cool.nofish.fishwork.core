@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "displayName": "Fishwork Core",
   "description": "Fishwork Core Library",
+  "dependencies": {
+    "com.unity.mathematics": "1.3.2"
+  },
   "unity": "6000.0",
   "documentationUrl": "https://github.com/CodeNofish/cool.nofish.fishwork.core/blob/main/Documentation~",
   "changelogUrl": "https://github.com/CodeNofish/cool.nofish.fishwork.core/blob/main/CHANGELOG.md",
