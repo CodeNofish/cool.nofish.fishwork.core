@@ -1,0 +1,15 @@
+{
+	"name": "Fishwork.Core",
+	"rootNamespace": "Fishwork.Core",
+	"references": [
+		"Unity.Mathematics"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": true,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": [],
+	"noEngineReferences": false
+}
