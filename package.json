@@ -10,6 +10,8 @@
   "documentationUrl": "https://github.com/CodeNofish/cool.nofish.fishwork.core/blob/main/Documentation~",
   "changelogUrl": "https://github.com/CodeNofish/cool.nofish.fishwork.core/blob/main/CHANGELOG.md",
   "licensesUrl": "https://github.com/CodeNofish/cool.nofish.fishwork.core/blob/main/LICENSE",
+  "license": "MIT",
+  "category": "Scripting",
   "keywords": [
     "fishwork"
   ],
