@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Fishwork.Core {
 
   public class GenericComparer<T> : IComparer<T> {
-    private readonly Func<T, T, int> _comparer;
+    private Func<T, T, int> _comparer;
 
     public GenericComparer(Func<T, T, int> comparer) {
       _comparer = comparer;

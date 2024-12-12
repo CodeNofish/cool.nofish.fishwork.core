@@ -3,7 +3,7 @@
 namespace Fishwork.Core {
 
   public class ReferenceEqualityComparer<T> : IEqualityComparer<T> where T : class  {
-    public static readonly ReferenceEqualityComparer<T> Default = new();
+    public static ReferenceEqualityComparer<T>  Default { get; } = new();
 
     public bool Equals(T x, T y) {
       return ReferenceEquals(x, y);
