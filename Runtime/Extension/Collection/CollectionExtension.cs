@@ -1,10 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using JetBrains.Annotations;
 
 namespace Fishwork.Core {
-
-  [PublicAPI]
+  
   public static class CollectionExtension {
     /// <summary>
     /// 集合是否为空

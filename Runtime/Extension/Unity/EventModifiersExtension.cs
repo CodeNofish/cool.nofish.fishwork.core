@@ -1,10 +1,8 @@
 ﻿using System.Runtime.CompilerServices;
-using JetBrains.Annotations;
 using UnityEngine;
 
 namespace Fishwork.Core {
-
-  [PublicAPI]
+  
   public static class EventModifiersExtension {
     /// <summary>
     /// 是否是None

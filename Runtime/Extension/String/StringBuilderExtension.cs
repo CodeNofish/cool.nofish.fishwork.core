@@ -1,10 +1,8 @@
 ﻿using System.Runtime.CompilerServices;
 using System.Text;
-using JetBrains.Annotations;
 
 namespace Fishwork.Core {
-
-  [PublicAPI]
+  
   public static class StringBuilderExtension {
     /// <summary>
     /// StringBuilder中指定字符最后一次出现的位置

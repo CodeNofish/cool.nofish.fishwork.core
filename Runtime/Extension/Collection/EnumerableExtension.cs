@@ -1,11 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using JetBrains.Annotations;
 
 namespace Fishwork.Core {
-  
-  [PublicAPI]
+
   public static class EnumerableExtension {
     /// <summary>
     /// 获取IEnumerable元素数量，优先使用非枚举方法

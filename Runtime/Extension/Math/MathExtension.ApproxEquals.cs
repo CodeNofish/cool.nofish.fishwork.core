@@ -1,10 +1,8 @@
 ﻿using System.Runtime.CompilerServices;
-using JetBrains.Annotations;
 using UnityEngine;
 
 namespace Fishwork.Core {
-
-  [PublicAPI]
+  
   public static class MathExtension {
     /// <summary>
     /// 两个单精度浮点数是否近似相等
