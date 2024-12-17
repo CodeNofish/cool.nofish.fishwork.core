@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Fishwork.Core {
 
   public class ColorEqualityComparer : IEqualityComparer<Color> {
-    public static ColorEqualityComparer Default { get; } = new();
+    public static ColorEqualityComparer Default = new();
 
     public bool Equals(Color self, Color other) {
       return self.r.Equals(other.r) && self.g.Equals(other.g) && self.b.Equals(other.b) && self.a.Equals(other.a);

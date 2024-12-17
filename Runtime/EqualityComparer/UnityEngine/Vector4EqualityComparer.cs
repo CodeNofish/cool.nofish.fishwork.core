@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Fishwork.Core {
 
   public class Vector4EqualityComparer : IEqualityComparer<Vector4> {
-    public static Vector4EqualityComparer Default { get; } = new();
+    public static Vector4EqualityComparer Default = new();
     
     public bool Equals(Vector4 self, Vector4 vector) {
       return self.x.Equals(vector.x) && self.y.Equals(vector.y) && self.z.Equals(vector.z) && self.w.Equals(vector.w);

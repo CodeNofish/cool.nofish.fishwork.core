@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Fishwork.Core {
 
   public class RectIntEqualityComparer : IEqualityComparer<RectInt> {
-    public static RectIntEqualityComparer Default { get; } = new();
+    public static RectIntEqualityComparer Default = new();
     
     public bool Equals(RectInt self, RectInt other) {
       return self.x.Equals(other.x) && self.width.Equals(other.width) && self.y.Equals(other.y) && self.height.Equals(other.height);

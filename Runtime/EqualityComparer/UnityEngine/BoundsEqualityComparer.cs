@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Fishwork.Core {
 
   public class BoundsEqualityComparer : IEqualityComparer<Bounds> {
-    public static BoundsEqualityComparer Default { get; } = new();
+    public static BoundsEqualityComparer Default = new();
 
     public bool Equals(Bounds self, Bounds vector) {
       return self.center.Equals(vector.center) && self.extents.Equals(vector.extents);

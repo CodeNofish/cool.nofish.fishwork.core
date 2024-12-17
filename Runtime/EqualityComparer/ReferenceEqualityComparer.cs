@@ -1,20 +1,17 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 
 namespace Fishwork.Core {
 
   public class ReferenceEqualityComparer<T> : IEqualityComparer<T> where T : class  {
-    public static ReferenceEqualityComparer<T>  Default { get; } = new();
+    public static ReferenceEqualityComparer<T>  Default = new();
 
     public bool Equals(T x, T y) {
       return ReferenceEquals(x, y);
     }
 
     public int GetHashCode(T obj) {
-      try {
-        return obj.GetHashCode();
-      } catch {
-        return -1;
-      }
+      return RuntimeHelpers.GetHashCode(obj);
     }
   }
 

@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Fishwork.Core {
 
   public class QuaternionEqualityComparer : IEqualityComparer<Quaternion> {
-    public static QuaternionEqualityComparer Default { get; } = new();
+    public static QuaternionEqualityComparer Default = new();
 
     public bool Equals(Quaternion self, Quaternion vector) {
       return self.x.Equals(vector.x) && self.y.Equals(vector.y) && self.z.Equals(vector.z) && self.w.Equals(vector.w);
