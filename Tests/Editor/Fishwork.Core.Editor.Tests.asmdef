@@ -1,0 +1,25 @@
+{
+  "name": "Fishwork.Core.Editor.Tests",
+  "rootNamespace": "Fishwork.Core.Editor.Tests",
+  "references": [
+    "Fishwork.Core.Editor",
+    "Fishwork.Core",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

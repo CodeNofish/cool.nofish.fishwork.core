@@ -1,0 +1,16 @@
+﻿{
+  "name": "cool.nofish.fishwork.core",
+  "version": "0.1.0",
+  "displayName": "Fishwork Core",
+  "description": "Fishwork Core Library",
+  "unity": "2022.3",
+  "documentationUrl": "https://github.com/CodeNofish/cool.nofish.fishwork.core/blob/main/Documentation~",
+  "changelogUrl": "https://github.com/CodeNofish/cool.nofish.fishwork.core/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/CodeNofish/cool.nofish.fishwork.core/blob/main/LICENSE",
+  "license": "MIT",
+  "category": "Scripting",
+  "keywords": [
+    "fishwork"
+  ],
+  "samples": []
+}
